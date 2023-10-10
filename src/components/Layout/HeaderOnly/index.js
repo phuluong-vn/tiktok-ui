@@ -1,9 +1,9 @@
-import Header from './Header';
+
 
 function HeaderOnly({ children }) {
     return (
         <div>
-            <Header />
+            <HeaderOnly />
             <div className="container">
                 <div className="content">{children}</div>
             </div>
